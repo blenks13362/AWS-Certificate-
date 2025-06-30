@@ -16,7 +16,8 @@ The idea is to build a solid foundation, not just pass the exam. If you're also 
 
 ```bash
 .
-├── summaries/             # Theory notes on AWS services
+├── summaries/              # Theory notes on AWS services
+│   ├── iam.md             
 │   ├── ec2.md
 │   ├── s3.md
 │   ├── vpc.md
