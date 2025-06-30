@@ -20,6 +20,13 @@ IAM is AWS’s service for managing access to resources. It allows you to create
 - Inline policies = attached directly to entity  
   Managed policies = reusable and AWS-managed.
 
+  📝 Questions to Expect on Exam
+What’s the difference between a user and a role?
+
+How to allow cross-account access?
+
+How to enforce MFA?
+
 ## 🛠️ CLI Commands
 
 ```bash
@@ -27,9 +34,4 @@ aws iam list-users
 aws iam create-user --user-name myUser
 aws iam attach-user-policy --user-name myUser --policy-arn arn:aws:iam::aws:policy/ReadOnlyAccess
 
-📝 Questions to Expect on Exam
-What’s the difference between a user and a role?
 
-How to allow cross-account access?
-
-How to enforce MFA?
